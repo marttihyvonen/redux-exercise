@@ -38,7 +38,6 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
     //Whenever selectBook is called, the result should passed to
     //to all of our reducers
-    console.log("Jee");
     return bindActionCreators({ selectBook: selectBook }, dispatch);
 }
 
